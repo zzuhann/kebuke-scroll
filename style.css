@@ -1,0 +1,161 @@
+@charset "UTF-8";
+* {
+  font-family: "Noto Serif TC", "Roboto Serif", serif, "微軟正黑體";
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+}
+
+nav.navbar.fixed-top.navbar-expand-md li {
+  margin-left: 18px;
+}
+nav.navbar.fixed-top.navbar-expand-md a.navbar-brand {
+  min-width: 120px;
+  max-width: 150px;
+}
+nav.navbar.fixed-top.navbar-expand-md a.navbar-brand img {
+  width: 100%;
+}
+
+.navbar-top {
+  background-color: transparent;
+}
+.navbar-top a {
+  color: white;
+}
+.navbar-top a:hover {
+  color: #FCFF07;
+}
+
+header {
+  text-align: center;
+  background-image: url(https://bnextmedia.s3.hicloud.net.tw/image/album/2020-05/img-1590026952-57109@900.jpg);
+  padding: 180px;
+  background-position: center center;
+  background-attachment: fixed;
+  color: white;
+}
+header hr {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: solid 2px #FCFF07;
+  opacity: 0.7;
+}
+header .text-pannel {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+section {
+  padding: 150px;
+}
+
+section#section_ask {
+  color: #333;
+  background-color: #e6eaec;
+}
+section#section_ask .col-sm-5 {
+  background-image: url(https://pic.pimg.tw/nigi33kimo/1519783024-2529324842_wn.jpg);
+  height: 300px;
+  background-size: cover;
+  mix-blend-mode: multiply;
+}
+section#section_ask .col-sm-7 {
+  padding-top: 130px;
+  text-align: center;
+}
+
+section#section_people {
+  background-color: #002F3F;
+  color: white;
+}
+section#section_people hr {
+  max-width: 300px;
+  background-color: #FCFF07;
+  opacity: 0.6;
+}
+section#section_people .col-sm-5 {
+  background-image: url(https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2021/06/11/draft/12495896.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=800&exp=3600&w=930&nt=1);
+  background-size: cover;
+  background-position: center 0;
+  box-shadow: -15px 15px 2px #e6eaec;
+  height: 200px;
+  margin-top: 20px;
+}
+section#section_people .col-sm-7 {
+  margin-top: 30px;
+}
+
+section#section_mkt .col-md-4.col-sm-6 {
+  text-align: center;
+}
+section#section_mkt .col-md-4.col-sm-6 img {
+  width: 100%;
+}
+section#section_mkt .col-md-4.col-sm-6 h5 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+section#section_share {
+  background-color: #002F3F;
+  color: white;
+  padding: 0;
+  text-align: center;
+}
+section#section_share .col-sm-5 {
+  background-image: url(https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2021/04/01/2/12003286.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=1050&exp=3600&exp=3600);
+  background-size: cover;
+  height: 400px;
+  background-position: 0 bottom;
+}
+section#section_share .col-sm-7 h3 {
+  margin-top: 30px;
+}
+section#section_share .col-sm-4 {
+  margin-top: 30px;
+}
+section#section_share .col-sm-4 i {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+section#section_share .col-sm-4 p {
+  font-size: 25px;
+  font-weight: bold;
+}
+section#section_share .col-sm-12 {
+  margin-top: 10px;
+}
+section#section_share .col-sm-12 p {
+  text-align: left;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+footer {
+  text-align: center;
+  background-image: url(https://dvblobcdnjp.azureedge.net//Content/Upload/Popular/Images/2019-09/a8fc8f15-16c9-4cb2-8480-bb13f7bc9d73_m.jpg);
+  padding: 90px;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  color: white;
+}
+footer h1 {
+  font-size: 30px;
+}
+footer hr {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: solid 2px #FCFF07;
+  opacity: 0.7;
+}
+footer .text-pannel {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
